@@ -1,6 +1,23 @@
+:root {
+  --white: #FFFFFF;
+  --light-gray: #D6E2F0;
+  --grayish-blue: #7B879D;
+  --dark-blue: #1F3251;
+
+  font-family: 'Outfit', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .attribution {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
   font-size: 11px;
-  text-align: center;
 }
 
 .attribution a {
