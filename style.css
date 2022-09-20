@@ -13,11 +13,66 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  background-color: var(--light-gray);
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px -8px #00000033;
+  padding: 16px;
+  min-width: 320px;
+  max-width: 320px;
+}
+
+.card>* {
+  margin-bottom: 16px;
+}
+
+.card__figure {}
+
+.figure__img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.card__title {}
+
+.title__text {
+  color: var(--dark-blue);
+  font-size: 22.5px;
+  font-weight: 700;
+  margin: 0 16px;
+  text-align: center;
+}
+
+.card__description {}
+
+.description__text {
+  color: var(--grayish-blue);
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 16px;
+  text-align: center;
+}
+
 .attribution {
-  position: absolute;
-  bottom: 4px;
-  left: 4px;
   font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
